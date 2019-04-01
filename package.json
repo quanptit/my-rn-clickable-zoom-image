@@ -1,0 +1,21 @@
+{
+  "name": "my-rn-clickable-zoom-image",
+  "version": "1.0.0",
+  "description": "my libs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ads"
+  ],
+  "author": "Quan Trinh Van",
+  "license": "Quan Trinh Van",
+  "nativePackage": true,
+  "dependencies": {
+    "react-native-image-pan-zoom": "^2.1.11"
+  },
+  "devDependencies": {},
+  "peerDependencies": {}
+}
