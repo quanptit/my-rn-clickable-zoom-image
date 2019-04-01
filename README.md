@@ -12,3 +12,7 @@ yarn install
 
 ## Sử dụng
 
+```javascript
+<CacheImageClickAble source={{uri: img}} imgH={question.heightImg} imgW={question.widthImg}
+                                    style={{height: heightImg, resizeMode: "contain"}}/>
+```
