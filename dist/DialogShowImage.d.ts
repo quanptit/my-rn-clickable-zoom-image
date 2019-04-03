@@ -1,6 +1,6 @@
 import { Component } from 'react';
-interface Props {
-    source: any;
+import { ImageProps } from 'react-native';
+interface Props extends ImageProps {
     imgW: number;
     imgH: number;
 }

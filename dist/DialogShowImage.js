@@ -25,10 +25,10 @@ export default class DialogShowImage extends Component {
         }
         else
             imgH = 200;
-        return (<PopupDialog {...this.props} dialogStyle={{ backgroundColor: "#000000AF" }} width={"100%"} height="100%" ref={(popupDialog) => { this.popupDialog = popupDialog; }}>
+        return (<PopupDialog dialogStyle={{ backgroundColor: "#000000AF" }} width={"100%"} height="100%" ref={(popupDialog) => { this.popupDialog = popupDialog; }}>
                 <View style={{ flex: 1 }}>
                     <ImageZoom style={{ flex: 1 }} cropWidth={width} cropHeight={height} imageWidth={width} imageHeight={imgH}>
-                        <CachedImage style={{ width: width, height: imgH, resizeMode: "contain" }} source={this.props.source} defaultSource={require("../../assets/placeholder.jpg")}/>
+                        <CachedImage style={{ width: width, height: imgH, resizeMode: "contain" }} source={this.props.source} defaultSource={this.props.defaultSource}/>
                     </ImageZoom>
 
                     <Button model={ButtonModel.transparent} onPress={() => this.dismiss()} style={{
