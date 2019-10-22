@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import DialogShowImage from "./DialogShowImage";
-import { CachedImage } from "react-native-cached-image";
+import { CachedImage } from "my-rn-cached-image";
 import { TouchableOpacity } from 'react-native';
 import { DialogUtils } from "my-rn-base-component";
 export class CacheImageClickAble extends PureComponent {

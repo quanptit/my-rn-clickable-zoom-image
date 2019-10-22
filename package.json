@@ -5,15 +5,23 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "install_npm": "yarn install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ads"
+    "react-native"
   ],
   "author": "Quan Trinh Van",
-  "license": "Quan Trinh Van",
-  "nativePackage": true,
+  "license": "ISC",
+  "homepage": "https://github.com/quanptit/my-rn-clickable-zoom-image",
+  "bugs": "https://github.com/quanptit/my-rn-clickable-zoom-image/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quanptit/my-rn-clickable-zoom-image.git"
+  },
+  "nativePackage": false,
   "dependencies": {
+    "my-rn-cached-image": "^1.4.5",
     "react-native-image-pan-zoom": "^2.1.11"
   },
   "devDependencies": {},

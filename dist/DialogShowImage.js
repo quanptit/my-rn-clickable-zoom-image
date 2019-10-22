@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { CachedImage } from "react-native-cached-image";
+import { CachedImage } from "my-rn-cached-image";
 import ImageZoom from 'react-native-image-pan-zoom';
 import { Dimensions, View } from 'react-native';
 import { Button, ButtonModel, PopupDialog, RenderUtils } from "my-rn-base-component";

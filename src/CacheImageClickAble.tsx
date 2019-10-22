@@ -1,6 +1,6 @@
 import React, {Component, PureComponent} from 'react'
 import DialogShowImage from "./DialogShowImage"
-import {CachedImage} from "react-native-cached-image"
+import {CachedImage} from "my-rn-cached-image"
 import {ImageProps, TouchableOpacity} from 'react-native'
 import {DialogUtils} from "my-rn-base-component";
 
